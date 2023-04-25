@@ -38,12 +38,12 @@ public class CreateNewStudentRec extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_new_student_rec);
         btnQuery = (Button) findViewById(R.id.btnQuery);
-        last = (EditText) findViewById(R.id.lname);
-        first = (EditText) findViewById(R.id.fname);
-        initial = (EditText) findViewById(R.id.mi);
-        contact = (EditText) findViewById(R.id.cno);
-        crse = (EditText) findViewById(R.id.course);
-        yr = (EditText) findViewById(R.id.year);
+        last = (EditText) findViewById(R.id.etlname);
+        first = (EditText) findViewById(R.id.etfname);
+        initial = (EditText) findViewById(R.id.etmi);
+        contact = (EditText) findViewById(R.id.etcno);
+        crse = (EditText) findViewById(R.id.etcourse);
+        yr = (EditText) findViewById(R.id.etyear);
 
         btnQuery.setOnClickListener(new View.OnClickListener() {
             @Override
