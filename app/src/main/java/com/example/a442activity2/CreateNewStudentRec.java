@@ -79,7 +79,7 @@ public class CreateNewStudentRec extends AppCompatActivity {
             int nSuccess;
             try {
                 ContentValues cv = new ContentValues();
-                cPostSQL = " '" + lname + "' , '" + fname + "' , '" + mi + "' , '" + cno + "'  " + course + "'  " + year + "'  ";
+                cPostSQL = " '" + lname + "' , '" + fname + "' , '" + mi + "' , '" + cno + "' , '" + course + "' , '" + year + "'  ";
                 cv.put("code", cPostSQL);
 
                 JSONObject json = jParser.makeHTTPRequest(urlHost, "POST", cv);
